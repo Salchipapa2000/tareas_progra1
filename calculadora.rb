@@ -13,9 +13,14 @@ end
 def dividir (a, b)
   return a/b
 end
-  
-  puts "Suma: #{sumar(10, 5)}"
-  puts "Resta: #{restar(10, 5)}"
-  puts "Multiplicar: #{multiplicar(10, 5)}"
-  puts "Dividir: #{dividir(10, 5)}"
+
+puts "Ingrese el primer número:"
+x = gets.to_i
+puts "Ingrese el segundo número:"
+y = gets.to_i
+
+  puts "Suma: #{sumar(x, y)}"
+  puts "Resta: #{restar(x, y)}"
+  puts "Multiplicar: #{multiplicar(x, y)}"
+  puts "Dividir: #{dividir(x, y)}"
 
